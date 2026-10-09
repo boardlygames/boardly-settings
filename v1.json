@@ -1,1 +1,20 @@
-{}
+{
+  "ads": {
+    "enabled": false,
+    "interstitials": true,
+    "banners": true,
+    "interstitialFirstAtRoundEnd": 2,
+    "interstitialEveryRoundEnds": 3,
+    "interstitialMinGapSeconds": 180,
+    "bannerFirstDelaySeconds": 45,
+    "bannerShownForSeconds": 20,
+    "bannerMinGapSeconds": 120,
+    "bannerMaxPerSession": 4
+  },
+  "games": [
+    { "id": "tictactoe", "visible": true },
+    { "id": "snakesladders", "visible": true },
+    { "id": "ludo", "visible": true },
+    { "id": "fourinarow", "visible": true }
+  ]
+}
