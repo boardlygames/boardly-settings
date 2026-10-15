@@ -12,9 +12,11 @@
     "bannerMaxPerSession": 4
   },
   "games": [
-    { "id": "tictactoe", "visible": true },
-    { "id": "snakesladders", "visible": true },
     { "id": "ludo", "visible": true },
+    { "id": "checkers", "visible": true },
+    { "id": "snakesladders", "visible": true },
+    { "id": "tictactoe", "visible": true },
+    { "id": "reversi", "visible": true },
     { "id": "fourinarow", "visible": true }
   ]
 }
