@@ -13,6 +13,7 @@
   },
   "games": [
     { "id": "ludo", "visible": true },
+    { "id": "chess", "visible": true },
     { "id": "checkers", "visible": true },
     { "id": "snakesladders", "visible": true },
     { "id": "tictactoe", "visible": true },
