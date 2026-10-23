@@ -2,14 +2,7 @@
   "ads": {
     "enabled": false,
     "interstitials": true,
-    "banners": true,
-    "interstitialFirstAtRoundEnd": 2,
-    "interstitialEveryRoundEnds": 3,
-    "interstitialMinGapSeconds": 180,
-    "bannerFirstDelaySeconds": 45,
-    "bannerShownForSeconds": 20,
-    "bannerMinGapSeconds": 120,
-    "bannerMaxPerSession": 4
+    "banners": true
   },
   "games": [
     { "id": "ludo", "visible": true },
