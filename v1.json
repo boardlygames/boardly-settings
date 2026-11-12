@@ -1,4 +1,5 @@
 {
+  "rev": "2026-11-13.1",
   "ads": {
     "enabled": false,
     "interstitials": true,
@@ -7,11 +8,13 @@
   "games": [
     { "id": "chess", "visible": true },
     { "id": "checkers", "visible": true },
+    { "id": "chinesecheckers", "visible": true },
     { "id": "fourinarow", "visible": true },
     { "id": "snakesladders", "visible": true },
     { "id": "tictactoe", "visible": true },
     { "id": "ludo", "visible": true },
     { "id": "reversi", "visible": true },
     { "id": "backgammon", "visible": true }
-  ]
+  ],
+  "firstGame": "chess"
 }
