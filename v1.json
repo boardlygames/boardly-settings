@@ -1,5 +1,5 @@
 {
-  "rev": "2026-11-14.1",
+  "rev": "2026-11-14.2",
   "ads": {
     "enabled": false,
     "interstitials": true,
@@ -15,7 +15,7 @@
       "visible": true
     },
     {
-      "id": "chinesecheckers",
+      "id": "ludo",
       "visible": true
     },
     {
@@ -23,7 +23,7 @@
       "visible": true
     },
     {
-      "id": "snakesladders",
+      "id": "backgammon",
       "visible": true
     },
     {
@@ -31,7 +31,7 @@
       "visible": true
     },
     {
-      "id": "ludo",
+      "id": "chinesecheckers",
       "visible": true
     },
     {
@@ -39,7 +39,7 @@
       "visible": true
     },
     {
-      "id": "backgammon",
+      "id": "snakesladders",
       "visible": true
     }
   ],
@@ -49,36 +49,36 @@
       "medium": {
         "depth": 2,
         "margin": 200,
-        "guard": 1.0
+        "guard": 1
       },
       "hard": {
         "depth": 4,
         "margin": 0,
-        "guard": 1.0
+        "guard": 1
       }
     },
     "checkers": {
       "medium": {
         "depth": 2,
         "margin": 200,
-        "guard": 1.0
+        "guard": 1
       },
       "hard": {
         "depth": 6,
         "margin": 0,
-        "guard": 1.0
+        "guard": 1
       }
     },
     "reversi": {
       "medium": {
         "depth": 1,
         "margin": 200,
-        "guard": 1.0
+        "guard": 1
       },
       "hard": {
         "depth": 6,
         "margin": 0,
-        "guard": 1.0
+        "guard": 1
       }
     },
     "fourinarow": {
