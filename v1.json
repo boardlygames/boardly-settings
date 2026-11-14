@@ -1,5 +1,5 @@
 {
-  "rev": "2026-11-14.2",
+  "rev": "2026-11-14.3",
   "ads": {
     "enabled": false,
     "interstitials": true,
@@ -11,15 +11,11 @@
       "visible": true
     },
     {
-      "id": "checkers",
-      "visible": true
-    },
-    {
       "id": "ludo",
       "visible": true
     },
     {
-      "id": "fourinarow",
+      "id": "checkers",
       "visible": true
     },
     {
@@ -27,7 +23,7 @@
       "visible": true
     },
     {
-      "id": "tictactoe",
+      "id": "fourinarow",
       "visible": true
     },
     {
@@ -35,11 +31,15 @@
       "visible": true
     },
     {
+      "id": "snakesladders",
+      "visible": true
+    },
+    {
       "id": "reversi",
       "visible": true
     },
     {
-      "id": "snakesladders",
+      "id": "tictactoe",
       "visible": true
     }
   ],
