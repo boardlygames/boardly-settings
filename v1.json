@@ -1,20 +1,91 @@
 {
-  "rev": "2026-11-13.1",
+  "rev": "2026-11-14.1",
   "ads": {
     "enabled": false,
     "interstitials": true,
     "banners": true
   },
   "games": [
-    { "id": "chess", "visible": true },
-    { "id": "checkers", "visible": true },
-    { "id": "chinesecheckers", "visible": true },
-    { "id": "fourinarow", "visible": true },
-    { "id": "snakesladders", "visible": true },
-    { "id": "tictactoe", "visible": true },
-    { "id": "ludo", "visible": true },
-    { "id": "reversi", "visible": true },
-    { "id": "backgammon", "visible": true }
+    {
+      "id": "chess",
+      "visible": true
+    },
+    {
+      "id": "checkers",
+      "visible": true
+    },
+    {
+      "id": "chinesecheckers",
+      "visible": true
+    },
+    {
+      "id": "fourinarow",
+      "visible": true
+    },
+    {
+      "id": "snakesladders",
+      "visible": true
+    },
+    {
+      "id": "tictactoe",
+      "visible": true
+    },
+    {
+      "id": "ludo",
+      "visible": true
+    },
+    {
+      "id": "reversi",
+      "visible": true
+    },
+    {
+      "id": "backgammon",
+      "visible": true
+    }
   ],
-  "firstGame": "chess"
+  "firstGame": "chess",
+  "bots": {
+    "chess": {
+      "medium": {
+        "depth": 2,
+        "margin": 200,
+        "guard": 1.0
+      },
+      "hard": {
+        "depth": 4,
+        "margin": 0,
+        "guard": 1.0
+      }
+    },
+    "checkers": {
+      "medium": {
+        "depth": 2,
+        "margin": 200,
+        "guard": 1.0
+      },
+      "hard": {
+        "depth": 6,
+        "margin": 0,
+        "guard": 1.0
+      }
+    },
+    "reversi": {
+      "medium": {
+        "depth": 1,
+        "margin": 200,
+        "guard": 1.0
+      },
+      "hard": {
+        "depth": 6,
+        "margin": 0,
+        "guard": 1.0
+      }
+    },
+    "fourinarow": {
+      "hard": {
+        "depth": 7,
+        "margin": 0
+      }
+    }
+  }
 }
