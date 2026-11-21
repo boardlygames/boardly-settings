@@ -1,5 +1,5 @@
 {
-  "rev": "2026-11-14.3",
+  "rev": "2026-11-21.1",
   "ads": {
     "enabled": false,
     "interstitials": true,
@@ -85,6 +85,11 @@
       "hard": {
         "depth": 7,
         "margin": 0
+      }
+    },
+    "chinesecheckers": {
+      "easy": {
+        "noise": 10
       }
     }
   }
