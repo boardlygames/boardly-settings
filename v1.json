@@ -1,5 +1,5 @@
 {
-  "rev": "2026-11-21.1",
+  "rev": "2026-11-24.1",
   "ads": {
     "enabled": false,
     "interstitials": true,
@@ -15,11 +15,11 @@
       "visible": true
     },
     {
-      "id": "checkers",
+      "id": "dominoes",
       "visible": true
     },
     {
-      "id": "backgammon",
+      "id": "checkers",
       "visible": true
     },
     {
@@ -27,7 +27,7 @@
       "visible": true
     },
     {
-      "id": "chinesecheckers",
+      "id": "tictactoe",
       "visible": true
     },
     {
@@ -39,7 +39,11 @@
       "visible": true
     },
     {
-      "id": "tictactoe",
+      "id": "chinesecheckers",
+      "visible": true
+    },
+    {
+      "id": "backgammon",
       "visible": true
     }
   ],
